@@ -1,0 +1,66 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --lightGray: hsl(212, 45%, 89%);
+  --grayishBlue: hsl(220, 15%, 55%);
+  --darkBlue: hsl(218, 44%, 22%);
+  --darkColor: #1f1f1f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: var(--lightGray);
+}
+
+/* CARD STYLE */
+.card {
+  background-color: var(--white);
+  max-width: 330px;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+img {
+  display: block;
+  width: 100%;
+  border-radius: 0.8rem;
+}
+
+.card-text {
+  margin: 1.5rem 0.82rem;
+  text-align: center;
+}
+
+.card h2 {
+  margin-bottom: 1rem;
+  color: var(--darkColor);
+}
+
+.card p {
+  color: var(--grayishBlue);
+  font-size: 15px;
+  letter-spacing: 0.8px;
+}
+
+/* "FOOTER" STYLE */
+.attribution {
+  margin-top: 2rem;
+  font-size: 11px;
+  text-align: end;
+}
+.attribution a {
+  text-decoration: none;
+  color: var(--darkBlue);
+}
